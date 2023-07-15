@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  akademi2023:
+    image: fathvarli/akademi2023
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
